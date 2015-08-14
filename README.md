@@ -20,7 +20,7 @@ mysql> GRANT ALL PRIVILEGES ON snifferdb . * TO 'wifiuser'@'localhost';
 
 mysql> FLUSH PRIVILEGES;
 
-mysql> CREATE TABLE wifi_mac (mac VARCHAR(17), ssid VARCHAR(30), timestamp VARCHAR(20), signal_strength VARCHAR(6))
+mysql> CREATE TABLE wifi_mac (mac VARCHAR(17), ssid VARCHAR(32), timestamp VARCHAR(20), signal_strength VARCHAR(6))
 
 # Run Script :
 you need to put wifi card in monitor mode first
