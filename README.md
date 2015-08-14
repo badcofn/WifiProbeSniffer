@@ -11,10 +11,10 @@ Instructions:
 login to mysql
 root@kali: mysql
 mysql>
-create db
-mysql> CREATE DATABASE snifferdb;
-create db user
-mysql> CREATE USER 'wifiuser'@'localhost' IDENTIFIED BY 'WiFiPa$$word';
+
+mysql> CREATE DATABASE snifferdb; #create db
+
+mysql> CREATE USER 'wifiuser'@'localhost' IDENTIFIED BY 'WiFiPa$$word'; #create db user
 
 mysql> GRANT ALL PRIVILEGES ON snifferdb . * TO 'wifiuser'@'localhost';
 
@@ -24,6 +24,7 @@ mysql> CREATE TABLE wifi_mac (mac VARCHAR(17), ssid VARCHAR(30), timestamp VARCH
 
 # Run Script :
 you need to put wifi card in monitor mode first
+
 root@kali: airmon-ng start wlan0
 
 root@kali: python wifisniffer1.1.py mon0
