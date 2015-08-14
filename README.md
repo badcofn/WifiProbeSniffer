@@ -29,3 +29,8 @@ root@kali: airmon-ng start wlan0
 
 root@kali: python wifisniffer1.1.py mon0
 
+
+
+--------
+This script is a modification and extension to:
+https://bitbucket.org/edkeeble/wifi-scan/src/e2a08627f05ddc16792953449493d56b1c197b30/wifiscan.py?at=master
