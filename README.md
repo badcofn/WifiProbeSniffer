@@ -5,9 +5,9 @@ Small project to tie in with security camera logging to add another layer of inf
 
 Bluetooth support is also to be added soon.
 
-Instructions:
+# Instructions:
 
-# Create mysql database
+Create mysql database
 login to mysql
 root@kali: mysql
 mysql>
