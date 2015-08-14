@@ -12,9 +12,9 @@ login to mysql
 root@kali: mysql
 mysql>
 
-mysql> CREATE DATABASE snifferdb; #create db
+mysql> CREATE DATABASE snifferdb;
 
-mysql> CREATE USER 'wifiuser'@'localhost' IDENTIFIED BY 'WiFiPa$$word'; #create db user
+mysql> CREATE USER 'wifiuser'@'localhost' IDENTIFIED BY 'WiFiPa$$word'; 
 
 mysql> GRANT ALL PRIVILEGES ON snifferdb . * TO 'wifiuser'@'localhost';
 
